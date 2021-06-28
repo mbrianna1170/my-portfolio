@@ -1,0 +1,21 @@
+.hero-body {
+  background-image: url("https://web-assets.bcg.com/dims4/default/587350d/2147483647/strip/true/crop/2880x1620+0+0/resize/727x409!/quality/90/?url=http:%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F36%2Fe7%2Fff799487ef3d354744c972e1f30d%2Fadaptive-mfg-2880x1620-tcm9-210430.jpg");
+  }
+  
+  img {
+    padding: 10px;
+  }
+
+.box {
+  margin-left: 15px;
+  margin-right: auto;
+}
+
+.box {
+margin: 100px 100px 100px 100px;
+}
+
+.block {
+  margin-top: 10px;
+}
+

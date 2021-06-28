@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>    
+
+<body>
+<!--Nav Bar Starts Here-->  
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <h1 class="navbar-item is-size-4"><strong>Bri Miller</strong></h1>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item">
+        About
+      </a>
+
+      <a class="navbar-item">
+        Profolio
+      </a>
+
+      <a class="navbar-item">
+       Featured Projects
+      </a>
+      
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-warning">
+            <strong>Contact</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--Nav Bar Starts Here-->
+
+<!--Hero Section Starts Here-->
+<section class="hero is-medium">
+  <div class="hero-body">
+    <p class="title has-text-centered has-text-white">
+     Welcome!
+    </p>
+    <p class="subtitle has-text-centered has-text-white">
+      I am a full stack web developer.
+    </p>
+  </div>
+</section>
+<!--Hero Section Ends-->  
+
+<!--Columns Begin-->
+
+<div class="columns has-background-warning">
+
+ <!--About Me-->
+  <div class="column is-one-third has-text-centered is-size-3">
+    <div class="box" id="aboutMe">
+    <figure class="media is-inline-block">
+      <p class="image is-96x96">
+        <img class="is-rounded" src="./assets/images/1614467105957.jpg">
+      </p>
+    </figure>
+    <div class="content is-medium">
+      <h2>About Me</h2>
+      <p>Hello, my name is Bri!
+      <br> I am a web developer based near Dallas, TX.<br> I highly enjoy UI & UX web deisgn. I am currently a student with the University of Texas enrolled in their coding program. My current skill set includes HTML, CSS, JavaScript, and other web APIs. 
+      </p>
+    </div>
+    </div>
+  </div>
+
+  <!--Featured Projects-->
+  <div class="column has-text-centered is-size-3">
+    <h1 class="block"><strong>Featured Projects</strong></h1>
+  <!--Image Gallery-->
+  <div class="tile is-ancestor">
+  <div class="tile is-parent">
+    <article class="tile is-child box has-background-black">
+      <p class="subtitle has-text-white"><a href="https://mbrianna1170.github.io/horiseo-page/index.html">Horiseo Website</a>
+        <figure class="image is-4by3">
+          <img src="./assets/images/horiseo2.jpeg">
+        </figure>
+    </article>
+  </div>
+  </div>
+    <div class="tile is-parent">
+      <article class="tile is-child box has-background-black">
+        <p class="subtitle has-text-white"><a href="https://mariamv29.github.io/healthy-craves/">Healthy Craves</a>
+        <figure class="image is-4by3">
+          <img src="./assets/images/healthycravesfinal.jpeg">
+        </figure>
+      </article>
+    </div>
+</div>
+</div>
+
+
+<!---Contact Info-->
+  <div class="box has-background-white">
+  <div class="field">
+    <label class="label">Name</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="Text input">
+    </div>
+  </div>
+  
+  <div class="field">
+    <label class="label">Email</label>
+    <div class="control has-icons-left has-icons-right">
+      <input class="input" type="email" placeholder="Email input" value="">
+      <span class="icon is-small is-left">
+        <i class="fas fa-envelope"></i>
+      </span>
+      <span class="icon is-small is-right">
+        <i class="fas fa-exclamation-triangle"></i>
+      </span>
+    </div>
+    <!-- <p class="help is-danger">This email is invalid</p> -->
+  </div>
+  
+  <div class="field">
+    <label class="label">Subject</label>
+    <div class="control">
+      <div class="select">
+        <select>
+          <option>Select Option</option>
+          <option>Inquiry</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  
+  <div class="field">
+    <label class="label">Message</label>
+    <div class="control">
+      <textarea class="textarea" placeholder="Write Something"></textarea>
+    </div>
+  </div>
+  
+  <!-- <div class="field">
+    <div class="control">
+      <label class="checkbox">
+        <input type="checkbox">
+        I agree to the <a href="#">terms and conditions</a>
+      </label>
+    </div>
+  </div>
+  
+  <div class="field">
+    <div class="control">
+      <label class="radio">
+        <input type="radio" name="question">
+        Yes
+      </label>
+      <label class="radio">
+        <input type="radio" name="question">
+        No
+      </label>
+    </div>
+  </div> -->
+  
+  <div class="field is-grouped">
+    <div class="control">
+      <button class="button is-warning">Submit</button>
+    </div>
+    <div class="control">
+      <button class="button is-link is-light">Cancel</button>
+    </div>
+  </div>
+  </div>
+
+
+
+</body>
+</html>
