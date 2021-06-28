@@ -14,7 +14,8 @@
 }
 
 .box {
-margin: 100px 100px 100px 100px;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 
 .block {
