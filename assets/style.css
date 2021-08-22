@@ -1,12 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
 .hero-body {
   background-image: url("./images/istockpaid.jpg");
   background-position: center center;
   background-repeat: repeat-x;
-  }
-  
-  img {
-    padding: 10px;
-  }
+}
+
+img {
+  padding: 10px;
+}
 
 .box {
   margin-left: 15px;
@@ -29,4 +33,42 @@
 
 .is-horizontal-center {
   justify-content: center;
+}
+
+/* Title for header */
+
+h1.title.has-text-centered.has-text-white {
+  font-size: xxx-large;
+}
+
+h2.subtitle.has-text-centered.has-text-white {
+  font-size: xx-large;
+}
+
+/* Featured Section */
+h1.title.has-text-centered {
+  font-size: xxx-large;
+}
+
+section#featuredProjects {
+  padding: 2%;
+}
+
+/* About me section */
+div#about-me-section {
+  background: black;
+  padding: 5%;
+}
+
+h2, 
+h3.about-description
+{
+  font-size: x-large;
+}
+
+/* Contact Box*/
+h2.h1-responsive.font-weight-bold.text-center.my-4 {
+  font-size: xxx-large;
+  font-weight: bold;
+  padding-top: 15px;
 }

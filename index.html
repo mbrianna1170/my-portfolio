@@ -1,243 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
     <!-- CSS only -->
+  </head>
 
-</head>    
+  <body>
+    <!--Nav Bar Starts Here-->
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a href='/' h1 class="navbar-item is-size-4"><strong>Bri Miller</strong></h1></a>
 
-<body>
-<!--Nav Bar Starts Here-->  
-<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <h1 class="navbar-item is-size-4"><strong>Bri Miller</strong></h1>
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
 
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#aboutme"> About </a>
 
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item" href="./aboutme.html">
-        About
-      </a>
+          <!-- <a class="navbar-item"> Portfolio </a> -->
 
-      <a class="navbar-item">
-        Portfolio
-      </a>
-
-      <a class="navbar-item" href="#featuredProjects">
-       Featured Projects
-      </a>
-      
-    </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-warning" href="#contactMe">
-            <strong>Contact</strong>
+          <a class="navbar-item" href="#featuredProjects">
+            Featured Projects
           </a>
         </div>
-      </div>
-    </div>
-  </div>
-</nav>
-<!--Nav Bar Starts Here-->
 
-<!--Hero Section Starts Here-->
-<section class="hero is-large has-background-black">
-  <div class="hero-body">
-    <figure class="media is-horizontal-center">
-      <p class="image is-128x128">
-        <img class="is-rounded" src="./assets/images/1614467105957.jpg">
-      </p>
-    </figure>
-    <p class="title has-text-centered has-text-white">
-     Welcome!
-    </p>
-    <p class="subtitle has-text-centered has-text-white">
-      I am a full stack web developer.
-    </p>
-  </div>
-</section>
-<!--Hero Section Ends-->  
-
-<!--Columns Begin-->
-
- <!--About Me-->
-  <!-- <div class="column is-one-third has-text-centered is-size-3">
-    <div class="box" id="aboutMe">
-    <figure class="media is-inline-block">
-      <p class="image is-96x96">
-        <img class="is-rounded" src="./assets/images/1614467105957.jpg">
-      </p>
-    </figure>
-    <div class="content is-medium">
-      <h2>About Me</h2>
-      <p>Hello, my name is Bri!
-      <br> I am a web developer based near Dallas, TX.<br> I highly enjoy UI & UX web deisgn. I am currently a student with the University of Texas enrolled in their coding program. My current skill set includes HTML, CSS, JavaScript, and other web APIs. 
-      </p>
-    </div>
-    </div>
-  </div> -->
-
-
-<!--FEATURED PROJECTS-->
-<section class="section is-medium has-background-warning" id="featuredProjects">
-  <h1 class="title has-text-centered">Featured Projects</h1>
-  <h2 class="subtitle has-text-centered">
-    Click the <strong>link</strong> in each box to be redirected to websites.
-  </h2>
-  <div class="tile is-ancestor">
-      <div class="tile is-parent">
-        <article class="tile is-child box has-background-black">
-          <p class="title has-text-centered has-text-white">Health and Recipe Project</p>
-          <p class="subtitle has-text-centered"><a href="https://mariamv29.github.io/healthy-craves/">Click Here</a></p>
-          <figure class="image is-4by3">
-            <img src="./assets/images/health.jpeg">
-          </figure>
-        </article>
-      </div>
-      <div class="tile is-parent">
-        <article class="tile is-child box has-background-black">
-          <p class="title has-text-centered has-text-white">Mock-Up Website</p>
-          <p class="subtitle has-text-centered"><a href="https://mbrianna1170.github.io/horiseo-page/">Click Here</a></p>
-          <figure class="image is-4by3">
-            <img src="./assets/images/horiseo2.jpeg">
-          </figure>
-        </article>
-      </div>
-      </div>
-  <!-- <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">One</p>
-              <p class="subtitle">Subtitle</p>
-            </article>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a class="button is-warning" href="#contactMe">
+                <strong>Contact</strong>
+              </a>
+            </div>
           </div>
-          <div class="tile is-parent">
-            <article class="tile is-child box">
-              <p class="title">Two</p>
-              <p class="subtitle">Subtitle</p>
-            </article>
-          </div> -->
+        </div>
+      </div>
+    </nav>
+    <!--Nav Bar Starts Here-->
+
+    <!--Hero Section Starts Here-->
+    <section class="hero is-large has-background-black">
+      <div class="hero-body">
+        <figure class="media is-horizontal-center">
+          <p class="image is-128x128">
+            <img class="is-rounded" src="./assets/images/1614467105957.jpg" />
+          </p>
+        </figure>
+        <h1 class="title has-text-centered has-text-white">Welcome!</h1>
+        <h2 class="subtitle has-text-centered has-text-white">
+          I am a full stack web developer.
+        </h2>
+      </div>
+    </section>
+    <!--Hero Section Ends-->
+
+    <!--Columns Begin-->
+
+    <!--FEATURED PROJECTS-->
+    <section
+      class="section is-medium has-background-warning"
+      id="featuredProjects"
+    >
+      <h1 class="title has-text-centered">Featured Projects</h1>
+      <h2 class="subtitle has-text-centered">
+        Click the <strong>link</strong> in each box to be redirected to
+        websites.
+      </h2>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child box has-background-black">
+            <p class="title has-text-centered has-text-white">
+              Health and Recipe Project
+            </p>
+            <p class="subtitle has-text-centered">
+              <a href="https://mariamv29.github.io/healthy-craves/"
+                >Click Here</a
+              >
+            </p>
+            <figure class="image is-4by3">
+              <img src="./assets/images/health.jpeg" />
+            </figure>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box has-background-black">
+            <p class="title has-text-centered has-text-white">
+              Mock-Up Website
+            </p>
+            <p class="subtitle has-text-centered">
+              <a href="https://mbrianna1170.github.io/horiseo-page/"
+                >Click Here</a
+              >
+            </p>
+            <figure class="image is-4by3">
+              <img src="./assets/images/horiseo2.jpeg" />
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--About Me Section Starts Here-->
+<section class="hero is-medium has-background-black" id='aboutme'>
+  <div class="hero-body" id="about-me-section">
+    <h1 class="title has-text-centered has-text-white">
+     About Me
+    </h1>
+    <div class="box has-text-white has-background-black has-text-centered">
+      <h2>Hello, my name is Bri Miller!</h2>
+      <br>
+      <h3 class=about-description>
+        Full stack web developer with a love for creativity and problem-solving. Track record for exceptional customer service and superb work ethic. Broadly knowledgeable in a wide variety of computer languages with an emphasis in JavaScript frameworks. Located in the Dallas, TX area. 
+      </h3>
+    </div>
+  </div>
 </section>
 
-<!---Contact Info-->
-<!--Section: Contact v.2-->
-<section class="mb-4" id="contactMe">
 
-  <!--Section heading-->
-  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Me!</h2>
-  <!--Section description-->
-  <p class="text-center w-responsive mx-auto mb-5">Email below for any questions or inquiries.</p>
+    <!---Contact Info-->
+    <!--Section: Contact v.2-->
+    <section class="mb-4" id="contactMe">
+      <!--Section heading-->
+      <h2 class="h1-responsive font-weight-bold text-center my-4">
+        Contact Me!
+      </h2>
+      <!--Section description-->
+      <p class="text-center w-responsive mx-auto mb-5">
+        Email below for any questions or inquiries.
+      </p>
 
-  <div class="row">
-
-      <!--Grid column-->
-      <div class="col-md-9 mb-md-0 mb-5">
-          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-              <!--Grid row-->
-              <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input type="text" id="name" name="name" class="form-control">
-                          <label for="name" class="">Your name</label>
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-6">
-                      <div class="md-form mb-0">
-                          <input type="text" id="email" name="email" class="form-control">
-                          <label for="email" class="">Your email</label>
-                      </div>
-                  </div>
-                  <!--Grid column-->
-
+      <div class="row">
+          <form
+            id="contact-form"
+            name="contact-form"
+            action="mail.php"
+            method="POST"
+          >
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                  />
+                  <label for="name" class="">Your name</label>
+                </div>
               </div>
-              <!--Grid row-->
+              <!--Grid column-->
 
-              <!--Grid row-->
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="md-form mb-0">
-                          <input type="text" id="subject" name="subject" class="form-control">
-                          <label for="subject" class="">Subject</label>
-                      </div>
-                  </div>
+              <!--Grid column-->
+              <div class="col-md-6">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                  />
+                  <label for="email" class="">Your email</label>
+                </div>
               </div>
-              <!--Grid row-->
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
 
-              <!--Grid row-->
-              <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-12">
-
-                      <div class="md-form">
-                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                          <label for="message">Your message</label>
-                      </div>
-
-                  </div>
+            <!--Grid row-->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="md-form mb-0">
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-control"
+                  />
+                  <label for="subject" class="">Subject</label>
+                </div>
               </div>
-              <!--Grid row-->
+            </div>
+            <!--Grid row-->
 
+            <!--Grid row-->
+            <div class="row">
+              <!--Grid column-->
+              <div class="col-md-12">
+                <div class="md-form">
+                  <textarea
+                    type="text"
+                    id="message"
+                    name="message"
+                    rows="2"
+                    class="form-control md-textarea"
+                  ></textarea>
+                  <label for="message">Your message</label>
+                </div>
+              </div>
+            </div>
+            <!--Grid row-->
           </form>
 
           <div class="text-center text-md-left">
-              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            <a
+              class="btn btn-primary"
+              onclick="document.getElementById('contact-form').submit();"
+              >Send</a
+            >
           </div>
           <div class="status"></div>
-      </div>
-      <!--Grid column-->
+        </div>
+        <!--Grid column-->
 
-      <!--Grid column-->
-      <div class="col-md-3 text-center">
+        <!--Grid column-->
+        <!-- <div class="col-md-3 text-center">
           <ul class="list-unstyled mb-0">
-              <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                  <p>Dallas, TX, United States</p>
-              </li>
+            <li>
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+              <p>Dallas, TX, United States</p>
+            </li>
 
-              <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                  <p>+ 01 234 567 89</p>
-              </li>
+            <li>
+              <i class="fas fa-phone mt-4 fa-2x"></i>
+              <p>+ 01 234 567 89</p>
+            </li>
 
-              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                  <p>contact@mdbootstrap.com</p>
-              </li>
+            <li>
+              <i class="fas fa-envelope mt-4 fa-2x"></i>
+              <p>contact@mdbootstrap.com</p>
+            </li>
           </ul>
+        </div> -->
+        <!--Grid column-->
       </div>
-      <!--Grid column-->
+    </section>
+    <!--Section: Contact v.2-->
 
-  </div>
-
-</section>
-<!--Section: Contact v.2-->
-  
-<!--FOOTER-->
-<footer class="footer">
-  <div class="content has-text-centered">
-    <p>
-      <strong>Bulma</strong> by <a href="./index.html">Bri Miller</a>. 
-    </p>
-  </div>
-</footer>
-
-</body>
+    <!--FOOTER-->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p><strong>Bulma</strong> by <a href="./index.html">Bri Miller</a>.</p>
+      </div>
+    </footer>
+  </body>
 </html>
