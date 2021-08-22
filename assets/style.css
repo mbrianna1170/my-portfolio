@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -10,6 +14,11 @@ body {
 
 img {
   padding: 10px;
+}
+
+#image-icon {
+  height: 200px;
+  width: 200px;
 }
 
 .box {
@@ -39,6 +48,7 @@ img {
 
 h1.title.has-text-centered.has-text-white {
   font-size: xxx-large;
+  font-weight: bold;
 }
 
 h2.subtitle.has-text-centered.has-text-white {
@@ -48,6 +58,7 @@ h2.subtitle.has-text-centered.has-text-white {
 /* Featured Section */
 h1.title.has-text-centered {
   font-size: xxx-large;
+  font-weight: bold;
 }
 
 section#featuredProjects {
@@ -67,7 +78,12 @@ h3.about-description
 }
 
 /* Contact Box*/
-h2.h1-responsive.font-weight-bold.text-center.my-4 {
+
+#myInfo {
+  text-align: center;
+}
+
+#contact-heading {
   font-size: xxx-large;
   font-weight: bold;
   padding-top: 15px;
