@@ -7,7 +7,7 @@ body {
 }
 
 .hero-body {
-  background-image: url("./images/istockpaid.jpg");
+  background-image: url("../images/header/istockpaid.jpg");
   background-position: center center;
   background-repeat: repeat-x;
 }
@@ -20,6 +20,7 @@ img {
   height: 200px;
   width: 200px;
 }
+
 
 .box {
   margin-left: 15px;
